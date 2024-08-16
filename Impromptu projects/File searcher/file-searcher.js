@@ -8,7 +8,7 @@ let readFileCB = (err, data) => {
     console.log(`Data not found: ${err}`);
   } else {
     let newData = data; //declared variable intended to be updated as the function loops
-    
+
     //Code below searches a file for text that says ".txt" in a loop until file doesn't contain it
     if (newData.includes(".txt") === true) { 
       let stringData = newData.toString(); 

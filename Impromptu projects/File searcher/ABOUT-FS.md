@@ -9,3 +9,6 @@ What I learned from this:
 3. The importance and uses of Asyncronous programing
 
 As a bonus, I got more experience in troubleshooting and utilizing various documentations to implement my ideas. Also I had fun learning this and developing my skills ^w^
+
+
+NOTE: To test the code, input "node file-searcher.js" in a terminal.
