@@ -15,7 +15,7 @@ Codecademy Back-End Engineer Career path Projects
 - *Portfolio Projects*, these are *big* projects that occur at the end of each chapter of a course, which are the culmination of all the skills I aquired in that chapter
 
 ### Challenge projects: 
-*Instead of a guided project format, this project type contain a series of open-ended requirements that must be met in order to be considered complete. There are many possible ways to correctly fulfill all of those requirements.*
+*Instead of a guided project format, this project type contains a series of open-ended requirements that must be met in order to be considered complete. There are many possible ways to correctly fulfill all of those requirements.*
 
 - #### These project folders contain: 
   - A text file contianing the premise and requirements of the project

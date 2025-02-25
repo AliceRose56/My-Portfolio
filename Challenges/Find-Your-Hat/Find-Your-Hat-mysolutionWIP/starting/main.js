@@ -62,6 +62,7 @@ class Field {
   static generateField(height, width, percentage) {
     const randArr = [];
 
+    // builds up an array of x arrays that each contain y field emojis
     for (let i = 0; i < height; i++) {
       randArr.push([]);
       for (let j = 0; j < width; j++) {
@@ -79,17 +80,20 @@ class Field {
       numOfHoles = numOfHoles - dif;
     }
 
+    // places x (item) y #of times (count)
     function itemPlacer(item, count) {
       for (let i = 0; i < count; ) {
+        // generates two random coordinates each loop
         const posX = Math.floor(Math.random() * height);
         const posY = Math.floor(Math.random() * width);
+        // checks if the object at (x, y) is a field, if so, then replaces it w/ desired item and adds to i, if not, for loop loops
         if (randArr[posX][posY] === field) {
           randArr[posX][posY] = item;
           i++;
         }
       }
     }
-
+    // runs itemPlace thrice to fill in field, then returns the level
     itemPlacer(hole, numOfHoles);
     itemPlacer(player, 1);
     itemPlacer(hat, 1);
