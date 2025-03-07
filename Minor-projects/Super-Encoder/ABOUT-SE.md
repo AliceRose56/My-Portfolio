@@ -13,5 +13,5 @@ In this project, you help extract and isolate its encryption functions into a mo
 <br><br>
 
 *NOTE: To test this project in VS Code, right click the folder containing it, select 'Open in Integrated Terminal' then:*
-- *if encrypting input "node super-encryptor.js encode" in a terminal, then enter your message when prompted.*
-- *if decrypting input "node super-encryptor.js decode (encryption key you recieved previously)", then enter the encoded message when prompted*
+- *if encrypting; input "node super-encryptor.js encode" in a terminal, then enter your message when prompted.*
+- *if decrypting; input "node super-encryptor.js decode (encryption key you recieved previously)", then enter the encoded message when prompted*
