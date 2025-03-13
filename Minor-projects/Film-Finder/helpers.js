@@ -33,13 +33,13 @@ const clearCurrentMovie = () => {
 // After liking a movie, clears the current movie from the screen and gets another random movie
 const likeMovie = () => {
     clearCurrentMovie();
-    showRandomMovie();
+    displayRandomMovie();
 };
 
 // After disliking a movie, clears the current movie from the screen and gets another random movie
 const dislikeMovie = () => {
     clearCurrentMovie();
-    showRandomMovie();
+    displayRandomMovie();
 };
 
 // Create HTML for movie poster

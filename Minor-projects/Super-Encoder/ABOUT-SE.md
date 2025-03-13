@@ -1,4 +1,4 @@
-### This is a the 'Mixed Messages' project and here's the premise:
+### This is the 'Mixed Messages' project and here's the premise:
 
 A company wants to open-source it's encryption functions by packaging its encryption functions in a module and allowing other developers to import these encryption functions into their own projects.
 
