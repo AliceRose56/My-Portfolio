@@ -13,22 +13,22 @@
     - Once you start up the server with node server.js, navigate to localhost:4001 in the browser. You’ll know things are up and running when you load the blue Quote API site in the browser.
 <br>
     - This diagram explains how the front-end buttons correspond to different request routes.
-![alt text](Diagram.png)
+![alt text](./Images/Diagram.png)
 <br>
 
 - Your API should have a GET /api/quotes/random route. This route should send back a random quote from the quotes data. The response body should have the following shape:
-![alt text](Quote.png)
+![alt text](./Images/Quote.png)
 <br>
 - Your API should have a GET /api/quotes route. This route should return all quotes from the data if the request has no query params.
     - If there is a query string with a person attribute, the route should return all quotes said by the same person. For instance, the data set has multiple quotes for Grace Hopper, so GET /api/quotes?person=Grace Hopper should return an array of only those quotes. If there are no quotes for the requested person, send back an empty array.
 
     - The response body should have the following shape for all GET /api/quotes requests:
-![alt text](Quotes.png)
+![alt text](./Images/Quotes.png)
 <br>
 - Your API should have a POST /api/quotes route for adding new quotes to the data. New quotes will be passed in a query string with two properties: quote with the quote text itself, and person with the person who is credited with saying the quote.
 <br>
     This route should verify that both properties exist in the request query string and send a 400 response if it does not. If all is well, this route handler should add the new quote object to the data array and send back a response with the following shape:
-    ![alt text](newQuote.png)
+    ![alt text](./Images/newQuote.png)
 
 
 ## Project Extension Ideas

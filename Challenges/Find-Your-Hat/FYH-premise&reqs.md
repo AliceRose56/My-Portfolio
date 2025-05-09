@@ -4,9 +4,9 @@
 ## Project Requirements
 -  Your project is centered on a Field class. This and the following tasks will describe how the class should function at a high level, and it will be up to you to figure out the implementation in code. As you go, test your code by creating instances of the class and calling its methods.  <br>
 The Field constructor should take a two-dimensional array representing the “field” itself. A field consists of a grid containing “holes” (O) and one “hat” (^). We use a neutral background character (░) to indicate the rest of the field itself. The player will begin in the upper-left of the field, and the player’s path is represented by *. <br>
-    ![alt text](image-1.png) <br>
+    ![alt text](./Images/image-1.png) <br>
 Your class should take a single argument representing the field: <br>
-    ![alt text](image-2.png) 
+    ![alt text](./Images/image-2.png) 
 <br>
 
 - Give your Field class a .print() method that prints the current state of the field. You can choose to format this however you want, but it will be much easier to play the game if you print out a string representation of the board instead of the raw array.
