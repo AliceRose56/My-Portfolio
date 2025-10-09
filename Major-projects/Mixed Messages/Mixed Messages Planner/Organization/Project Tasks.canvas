@@ -1,16 +1,16 @@
 {
 	"nodes":[
-		{"id":"f835c7a7f0c91b49","x":20,"y":-620,"width":1000,"height":1500,"type":"text","text":"# In Progress"},
-		{"id":"a1e20eab4946abfc","type":"file","file":"Organization/In Progress/Set up version control.md","x":580,"y":-440,"width":383,"height":360},
+		{"id":"f835c7a7f0c91b49","type":"text","text":"# In Progress","x":20,"y":-620,"width":1000,"height":1500},
 		{"id":"8ac533b1b293dcab","type":"file","file":"Organization/In Progress/Plan your Project.md","x":80,"y":-440,"width":402,"height":360},
 		{"id":"b7ad0c83cbba8a61","type":"text","text":"# To Do","x":-1040,"y":-620,"width":1000,"height":1500},
 		{"id":"20dd6dad66171a61","type":"text","text":"# Done","x":1080,"y":-620,"width":1000,"height":1500},
-		{"id":"ec44ef49387b1196","x":-495,"y":30,"width":400,"height":430,"type":"file","file":"Organization/To Do/Store message components.md"},
-		{"id":"ff865951ecb7bb36","x":-495,"y":-440,"width":400,"height":420,"type":"file","file":"Organization/To Do/Create script and run it locally.md"},
-		{"id":"d2fc7c9717cd60b3","x":-980,"y":540,"width":400,"height":278,"type":"file","file":"Organization/To Do/Create the message.md"},
-		{"id":"6dee75b8118f1dbc","x":-495,"y":540,"width":400,"height":278,"type":"file","file":"Organization/To Do/Next steps.md"},
-		{"id":"a18519cc44b2ab83","x":-980,"y":30,"width":400,"height":430,"type":"file","file":"Organization/To Do/Put the program together.md"},
-		{"id":"f0b72d43f74cc95f","x":-980,"y":-440,"width":400,"height":420,"type":"file","file":"Organization/To Do/Come Up with a Topic.md"}
+		{"id":"ec44ef49387b1196","type":"file","file":"Organization/To Do/Store message components.md","x":-495,"y":30,"width":400,"height":430},
+		{"id":"ff865951ecb7bb36","type":"file","file":"Organization/To Do/Create script and run it locally.md","x":-495,"y":-440,"width":400,"height":420},
+		{"id":"d2fc7c9717cd60b3","type":"file","file":"Organization/To Do/Create the message.md","x":-980,"y":540,"width":400,"height":278},
+		{"id":"6dee75b8118f1dbc","type":"file","file":"Organization/To Do/Next steps.md","x":-495,"y":540,"width":400,"height":278},
+		{"id":"a18519cc44b2ab83","type":"file","file":"Organization/To Do/Put the program together.md","x":-980,"y":30,"width":400,"height":430},
+		{"id":"f0b72d43f74cc95f","type":"file","file":"Organization/To Do/Come Up with a Topic.md","x":-980,"y":-440,"width":400,"height":420},
+		{"id":"a1e20eab4946abfc","type":"file","file":"Organization/In Progress/Set up version control.md","x":1140,"y":-440,"width":383,"height":360}
 	],
 	"edges":[]
 }
